@@ -19,6 +19,7 @@ export default function MarkdownWrapper({
           width: 100%;
           * {
             color: var(--black);
+            text-align: center;
           }
           h2,
           h3,

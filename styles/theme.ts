@@ -149,16 +149,17 @@ export const mediaConfigurationStyles = {
     fullPageHistoryItemDescription: () => css`
       font-size: var(--text-01);
     `,
+    */
     cardMediaWrapper: () => css`
       width: 100%;
       position: relative;
       height: 0;
-      padding-bottom: 100%;
+      padding-bottom: 133%;
       overflow-y: visible;
       img {
         ${mixins.absoluteFullCentered};
         object-fit: cover;
       }
-    `*/
+    `
   }
 }
